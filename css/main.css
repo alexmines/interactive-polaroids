@@ -25,6 +25,17 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
   position: absolute;
+  text-align: center;
+  left: 34%;
+  bottom: 12%;
+}
+
+.polaroid:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 1);
+}
+
+figure {
+  position: relative;
 }
 
 .polaroid:first-child {
