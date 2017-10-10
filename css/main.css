@@ -52,11 +52,15 @@ figure {
 }
 
 .polaroid:nth-child(2) {
-
+  left: 30%;
+  top: 10em;
+  z-index: 3;
+  transform: rotate(4deg);
 }
 
 .polaroid:nth-child(2):hover {
-
+  z-index: 1000;
+  transform: rotate(0deg);
 }
 
 .polaroid:last-child {
